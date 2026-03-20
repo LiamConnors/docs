@@ -28,7 +28,7 @@ necessary dependencies alongside Zensical.
     You need to have Python and a Python package manager installed on your
     system before you install Zensical. We recommend you follow the [Python
     Setup and Usage] instructions for your operating system provided on the
-    [Python website].  Modern Python distributions include the `pip` package
+    [Python website]. Modern Python distributions include the `pip` package
     manager, so unless you are developing Python software and use `uv`, this is
     the simplest option to install Zensical on your system.
 
@@ -43,13 +43,19 @@ necessary dependencies alongside Zensical.
     you can use our [official Docker image]. For installation and usage
     instructions, see the documentation on Docker Hub.
 
-
-
 [official Docker image]: https://hub.docker.com/r/zensical/zensical
 
 ### Install with pip { data-toc-label="with pip" }
 
-Zensical can be installed into a virtual environment with `pip`.
+Zensical can be installed into a virtual environment[^venv] with `pip`.
+
+[^venv]: A [Python virtual environment] is a folder in your project directory that
+    contains its own copy of Python and any Python packages the project needs.
+    By installing Zensical and its dependencies into a virtual environment you
+    ensure that it does not interfere with other projects on your computer that
+    also use Python.
+
+  [Python virtual environment]: https://docs.python.org/3/tutorial/venv.html
 
 === ":material-apple: macOS"
     Open up a terminal window and install Zensical by first setting up a virtual
@@ -93,29 +99,29 @@ Zensical can be installed into a virtual environment with `pip`.
 ### Install with uv { data-toc-label="with uv" }
 
 If you are developing software using Python, chances are you're already using
-[`uv`][uv] as a package manager, which has become popular in recent years. To
-install Zensical with `uv`, use:
+[`uv`][uv] as a package and project manager, which has become popular in recent
+years.
 
-[uv]: https://docs.astral.sh/uv/
+To install Zensical with `uv` and add it to your development dependencies in
+your `pyproject.toml`, use:
 
-=== ":material-apple: macOS"
+  [uv]: https://docs.astral.sh/uv/
 
-    ```
-    uv init
-    uv add --dev zensical
-    ```
+```
+uv init
+uv add --dev zensical
+uv run zensical
+```
 
-=== ":fontawesome-brands-windows: Windows"
+Note that when using Zensical as a project dependency, you need to always either
+use `uv run` or activate the project's virtual environment manually.
 
-    ```
-    uv init
-    uv add --dev zensical
-    ```
+!!! tip "Running as a `uv` tool"
+    We recommend always running Zensical from a project virtual environment to
+    make sure the version used is well defined. However, `uv` can also run
+    Zensical as a tool with a one-liner. See the [`uv` documentation][uvtool]
+    for details.
 
-=== ":material-linux: Linux"
+  [uvtool]: https://docs.astral.sh/uv/concepts/tools/#tool-environments
 
-    ```
-    uv init
-    uv add --dev zensical
-    ```
 
