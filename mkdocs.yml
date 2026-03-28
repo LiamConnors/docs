@@ -196,6 +196,7 @@ nav:
     - Header: setup/header.md
     - Footer: setup/footer.md
     - Repository: setup/repository.md
+    - Versioning: setup/versioning.md
     - Comment system: setup/comment-system.md
     - Offline usage: setup/offline.md
     - Extensions:
