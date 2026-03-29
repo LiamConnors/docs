@@ -104,6 +104,11 @@ the workflow in action.
 
 Your documentation is now published under `<username>.gitlab.io/<repository>`.
 
+  [GitLab Pages]: https://gitlab.com/pages
+  [GitLab CI]: https://docs.gitlab.com/ee/ci/
+  [site_dir]: setup/basics.md#site_dir
+  [default branch]: https://docs.gitlab.com/ee/user/project/repository/branches/default.html
+
 ## Other
 
 We cannot document every hosting provider here. The following community guides
@@ -111,8 +116,3 @@ describe how to deploy a Zensical site elsewhere:
 
 * [Azure Static Web Apps with GitHub](https://zensical-guides.hypercat.net/azure-static-web-app-github/)
 * [Azure Static Web Apps with Azure DevOps](https://zensical-guides.hypercat.net/azure-static-web-app-devops/)
-
-  [GitLab Pages]: https://gitlab.com/pages
-  [GitLab CI]: https://docs.gitlab.com/ee/ci/
-  [site_dir]: setup/basics.md#site_dir
-  [default branch]: https://docs.gitlab.com/ee/user/project/repository/branches/default.html
