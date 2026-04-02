@@ -112,7 +112,8 @@ Your documentation is now published under `<username>.gitlab.io/<repository>`.
 ## Other
 
 We cannot document every hosting provider here. The following community guides
-describe how to deploy a Zensical site elsewhere:
+describe how to deploy a Zensical site elsewhere. If you find an issue with one of these 
+guides, please contact the author.
 
-* [Azure Static Web Apps with GitHub](https://zensical-guides.hypercat.net/azure-static-web-app-github/)
+* [Azure Static Web Apps with GitHub Actions](https://zensical-guides.hypercat.net/azure-static-web-app-github/)
 * [Azure Static Web Apps with Azure DevOps](https://zensical-guides.hypercat.net/azure-static-web-app-devops/)
