@@ -1,5 +1,5 @@
 ---
-icon: lucide/github
+icon: lucide/book-marked
 tags:
   - Setup
   - Repository
