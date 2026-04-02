@@ -109,3 +109,11 @@ Your documentation is now published under `<username>.gitlab.io/<repository>`.
   [site_dir]: setup/basics.md#site_dir
   [default branch]: https://docs.gitlab.com/ee/user/project/repository/branches/default.html
 
+## Other
+
+We cannot document every hosting provider here. The following community guides
+describe how to deploy a Zensical site elsewhere. If you find an issue with one of these 
+guides, please contact the author.
+
+* [Azure Static Web Apps with GitHub Actions](https://zensical-guides.hypercat.net/azure-static-web-app-github/)
+* [Azure Static Web Apps with Azure DevOps](https://zensical-guides.hypercat.net/azure-static-web-app-devops/)
