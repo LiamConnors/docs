@@ -50,6 +50,11 @@ to your configuration:
       MathJax.texReset()
       MathJax.typesetPromise()
     })
+
+    component$.subscribe(({ ref }) => {
+      if (ref.classList.contains("md-annotation"))
+        MathJax.typesetPromise([ref])
+    })
     ```
 
     1. This integrates MathJax with [instant navigation].
