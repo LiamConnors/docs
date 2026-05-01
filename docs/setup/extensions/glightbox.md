@@ -1,0 +1,166 @@
+---
+icon: lucide/box
+tags:
+  - Extensions
+---
+
+# GLightbox
+
+The GLightbox extension, included with Zensical, provides lightbox galleries — overlays that display images with navigation. Enable it via:
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox
+    ```
+
+The following additional configuration options are supported:
+
+#### `auto`
+
+When `true`, images are wrapped automatically, unless they have the `off-glb` CSS class or additional classes specified with the [`skip_classes`](#skip_classes) option. When `false`, only images with the `on-glb` CSS class are wrapped. The default value is `true`.
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    auto = false
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox:
+          auto: false
+    ```
+
+#### `auto_themed`
+
+When set to `true`, images for light and dark modes are grouped into separate galleries. Supports image URLs with `#only-light`/`#only-dark` or `#gh-light-mode-only`/`#gh-dark-mode-only` appended to their URLs (see [light and dark mode images](../../authoring/images.md#light-and-dark-mode)). The default value is `false`.
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    auto_themed = true
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox:
+          auto_themed: true
+    ```
+
+#### `width`
+
+Width of the lightbox overlay (default: `auto`). Accepts CSS units (`px`, `%`, `vw`, `vh`) or `auto`.
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    width = "800px"
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox:
+          width: "800px"
+    ```
+
+
+#### `height`
+
+Height of the lightbox overlay (default: `auto`). Accepts CSS units (`px`, `%`, `vw`, `vh`) or `auto`.
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    height = "600px"
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox:
+          height: "600px"
+    ```
+
+#### `skip_classes`
+
+List of image CSS classes to exclude from automatic wrapping. The default value is `[]`.
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    skip_classes = ["extra-class-to-exclude"]
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox:
+          skip_classes:
+            - extra-class-to-exclude
+    ```
+
+#### `auto_caption`
+
+When set to `true`, uses the image `alt` attribute as a caption when no explicit
+`data-title` is present. The default value is `false`.
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    auto_caption = true
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox:
+          auto_caption: true
+    ```
+
+#### `caption_position`
+
+Default caption position for images (default: `bottom`). Valid values: `bottom`, `top`, `left`, or `right`.
+
+=== "`zensical.toml`"
+
+    ``` toml
+    [project.markdown_extensions.zensical.extensions.glightbox]
+    caption_position = "top"
+    ```
+
+=== "`mkdocs.yml`"
+
+    ``` yaml
+    markdown_extensions:
+      - zensical.extensions.glightbox:
+          caption_position: top
+    ```
+
+## Additional resources
+
+
+- [Python-Markdown attribute lists](https://python-markdown.github.io/extensions/attr_list/)
+
