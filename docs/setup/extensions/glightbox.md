@@ -6,7 +6,7 @@ tags:
 
 # GLightbox
 
-The GLightbox extension, included with Zensical, provides lightbox galleries — overlays that display images with navigation. Enable it via:
+The GLightbox extension, included with Zensical, provides lightbox galleries — overlays that display images with navigation — allowing users to zoom in on images. Enable it via:
 
 === "`zensical.toml`"
 
@@ -122,7 +122,7 @@ List of image CSS classes to exclude from automatic wrapping. The default value 
 
 #### `auto_caption`
 
-When set to `true`, uses the image `alt` attribute as a caption when no explicit `data-title` attribute is present. To set captions manually, add `data-title` to your images (e.g. `![Alt](image.jpg){ data-title="My Caption" }`), which takes precedence over the `alt` attribute when `auto_caption` is `true`. The default value is `false`.
+When set to `true`, the image `alt` attribute is used as a caption when no explicit `data-title` attribute is present. To set captions manually, add `data-title` to your images (e.g. `![Alt](image.jpg){ data-title="My Caption" }`), which takes precedence over the `alt` attribute when `auto_caption` is `true`. The default value is `false`.
 
 === "`zensical.toml`"
 
