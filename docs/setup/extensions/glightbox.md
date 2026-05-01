@@ -122,7 +122,7 @@ List of image CSS classes to exclude from automatic wrapping. The default value 
 
 #### `auto_caption`
 
-When set to `true`, uses the image `alt` attribute as a caption when no explicit `data-title` attribute is present. To set captions manually, add `data-title` to your images (e.g. `![Alt](image.jpg){ data-title="My Caption" }`), which takes precedence over the `alt` attribute when `auto_caption` is true. The default value is `false`.
+When set to `true`, uses the image `alt` attribute as a caption when no explicit `data-title` attribute is present. To set captions manually, add `data-title` to your images (e.g. `![Alt](image.jpg){ data-title="My Caption" }`), which takes precedence over the `alt` attribute when `auto_caption` is `true`. The default value is `false`.
 
 === "`zensical.toml`"
 
@@ -147,7 +147,7 @@ Default caption position for images (default: `bottom`). Valid values: `bottom`,
 
     ``` toml
     [project.markdown_extensions.zensical.extensions.glightbox]
-    caption_position = "top"
+    caption_position = "right"
     ```
 
 === "`mkdocs.yml`"
@@ -155,7 +155,7 @@ Default caption position for images (default: `bottom`). Valid values: `bottom`,
     ``` yaml
     markdown_extensions:
       - zensical.extensions.glightbox:
-          caption_position: top
+          caption_position: right
     ```
 
 ## Additional resources
