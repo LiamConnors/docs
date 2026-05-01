@@ -44,7 +44,7 @@ When `true`, images are wrapped automatically, unless they have the `off-glb` CS
 
 #### `auto_themed`
 
-When set to `true`, images for light and dark modes are grouped into separate galleries. Supports image URLs with `#only-light`/`#only-dark` or `#gh-light-mode-only`/`#gh-dark-mode-only` appended to their URLs (see [light and dark mode images](../../authoring/images.md#light-and-dark-mode)). The default value is `false`.
+When set to `true`, images for light and dark modes are grouped into separate galleries. Supports image URLs with `#only-light`/`#only-dark` or `#gh-light-mode-only`/`#gh-dark-mode-only` appended to their URLs (see [light and dark mode images]). The default value is `false`.
 
 === "`zensical.toml`"
 
@@ -168,4 +168,5 @@ Default caption position for images (default: `bottom`). Valid values: `bottom`,
     - `data-gallery` — Manual gallery grouping
 
   [Attribute Lists]: python-markdown.md#attribute-lists
+  [light and dark mode images]: ../../authoring/images.md#light-and-dark-mode
 
