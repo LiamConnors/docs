@@ -158,7 +158,7 @@ Default caption position for images (default: `bottom`). Valid values: `bottom`,
           caption_position: right
     ```
 
-## Adding attributes
+## Adding attributes to images
 
 - [Attribute Lists] — Enables adding data attributes to images for customizing lightbox behavior:
     - `data-src` — Alternative image source for the lightbox
