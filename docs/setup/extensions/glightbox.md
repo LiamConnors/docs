@@ -161,6 +161,5 @@ Default caption position for images (default: `bottom`). Valid values: `bottom`,
 
 ## Additional resources
 
-
 - [Python-Markdown attribute lists](https://python-markdown.github.io/extensions/attr_list/)
 
