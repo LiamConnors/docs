@@ -6,7 +6,7 @@ tags:
 
 # GLightbox
 
-The GLightbox extension, included with Zensical, provides lightbox galleries — overlays that display images with navigation — allowing users to zoom in on images. Enable it via:
+The GLightbox extension, included with Zensical, enables image zoom through lightbox galleries — full-screen overlays with navigation controls. Enable it via:
 
 === "`zensical.toml`"
 

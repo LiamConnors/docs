@@ -203,7 +203,7 @@ hash fragment to the image URL:
 
 ### Lightbox and zoom
 
-Zensical includes the [GLightbox] extension, which adds lightbox galleries. When enabled, clicking on an image opens it in a full-screen overlay with navigation controls, allowing users to view images in detail.
+Zensical includes the [GLightbox] extension, which adds lightbox galleries. When enabled, clicking on an image opens it in a full-screen overlay with navigation and zoom controls.
 
 To enable lightbox for your images, see the [GLightbox] setup guide.
 
