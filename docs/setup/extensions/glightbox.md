@@ -122,8 +122,7 @@ List of image CSS classes to exclude from automatic wrapping. The default value 
 
 #### `auto_caption`
 
-When set to `true`, uses the image `alt` attribute as a caption when no explicit
-`data-title` is present. The default value is `false`.
+When set to `true`, uses the image `alt` attribute as a caption when no explicit `data-title` attribute is present. To set captions manually, add `data-title` to your images (e.g. `![Alt](image.jpg){ data-title="My Caption" }`), which takes precedence over the `alt` attribute when `auto_caption` is true. The default value is `false`.
 
 === "`zensical.toml`"
 
