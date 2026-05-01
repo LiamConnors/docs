@@ -158,7 +158,14 @@ Default caption position for images (default: `bottom`). Valid values: `bottom`,
           caption_position: right
     ```
 
-## Additional resources
+## Adding attributes
 
-- [Python-Markdown attribute lists](https://python-markdown.github.io/extensions/attr_list/)
+- [Attribute Lists] — Enables adding data attributes to images for customizing lightbox behavior:
+    - `data-src` — Alternative image source for the lightbox
+    - `data-title` — Custom caption text
+    - `data-description` — Additional description text
+    - `data-caption-position` — Override global caption position
+    - `data-gallery` — Manual gallery grouping
+
+  [Attribute Lists]: python-markdown.md#attribute-lists
 
