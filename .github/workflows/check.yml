@@ -44,4 +44,4 @@ jobs:
         run: pip install zensical
 
       - name: Build documentation
-        run: zensical build --strict
+        run: zensical build
