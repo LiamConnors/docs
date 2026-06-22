@@ -1,4 +1,7 @@
 {
+  "files.associations": {
+    "docs/**/*.md": "python-markdown",
+  },
   "git.ignoreLimitWarning": true,
   "search.followSymlinks": false,
   "typescript.tsdk": "node_modules/typescript/lib",
