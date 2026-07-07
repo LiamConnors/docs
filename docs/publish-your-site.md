@@ -115,7 +115,7 @@ the workflow in action.
     your production deployment. Also make sure to set the visibility for Pages
     under `Settings > General > Visibility` if you want a public site.
 
-Your documentation is will now be published under `<username>.gitlab.io/<repository>`.
+Your documentation will be published under `<username>.gitlab.io/<repository>`.
 
   [GitLab Pages]: https://gitlab.com/pages
   [GitLab CI]: https://docs.gitlab.com/ee/ci/
