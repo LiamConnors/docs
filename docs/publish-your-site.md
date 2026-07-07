@@ -19,7 +19,7 @@ charge and pretty easy to set up.
 
   [GitHub Pages]: https://pages.github.com/
 
-### Publish with GitHub Actions
+### with GitHub Actions
 
 Using [GitHub Actions] you can automate the deployment of your project
 documentation on pushes to a specific branch in your repository.
