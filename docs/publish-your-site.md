@@ -67,7 +67,7 @@ jobs:
     Zensical.
 
 When a new commit is pushed to the branch you are using for deployment
-(for example, `master` or `main` as shown in the earlier workflow), the static site is automatically built and
+(e.g. `master` or `main`), the static site is automatically built and
 deployed. Push your changes to see the workflow in action.
 
 Your documentation should shortly appear at `<username>.github.io/<repository>`.
