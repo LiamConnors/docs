@@ -9,7 +9,7 @@ tags:
 
 You can create a new project from the command line using the `zensical new`
 command. Specify a path as an argument to create the project in that directory, 
-or omit it to use the current working directory. If you specify a path and it 
+or omit it to use the current working directory. If you specify a path that
 does not yet exist, it will be created for you.
 
 ## Usage
