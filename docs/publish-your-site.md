@@ -25,7 +25,7 @@ Using [GitHub Actions] you can automate the deployment of your project
 documentation on pushes to a specific branch in your repository.
 
 !!! note "Prerequisite"
-    GitHub Pages for your repo must be configured [to publish using GitHub Actions][configure publishing source].
+    GitHub Pages for your repository must be configured [to publish using GitHub Actions][configure publishing source].
 
 If you created your site with `zensical new`, a publishing workflow was already created for your project in `.github/workflows/docs.yml`. If you don't already have this workflow, create a new GitHub Actions workflow at the root of your
 repository (e.g. `.github/workflows/docs.yml`) with the following contents:
