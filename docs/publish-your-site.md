@@ -22,9 +22,13 @@ charge and pretty easy to set up.
 ### with GitHub Actions
 
 Using [GitHub Actions] you can automate the deployment of your project
-documentation. At the root of your repository, create a new GitHub Actions
-workflow, e.g. `.github/workflows/docs.yml`, and copy and paste the following
-contents:
+documentation on pushes to a specific branch in your repository.
+
+!!! note "Prerequisite"
+    GitHub Pages for your repository must be configured [to publish using GitHub Actions][configure publishing source].
+
+If you created your site with `zensical new`, a publishing workflow was already created for your project in `.github/workflows/docs.yml`. If you don't already have this workflow, create a new GitHub Actions workflow at the root of your
+repository (e.g. `.github/workflows/docs.yml`) with the following contents:
 
 ``` yaml
 name: Documentation
@@ -69,6 +73,7 @@ deployed. Push your changes to see the workflow in action.
 Your documentation should shortly appear at `<username>.github.io/<repository>`.
 
   [GitHub Actions]: https://github.com/features/actions
+  [configure publishing source]: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
 
 ## GitLab Pages
 
